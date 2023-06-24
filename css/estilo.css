@@ -1,0 +1,252 @@
+/*CSS UNIVERSAL PARA TODA A PÁGINA*/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Sigmar&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+header{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.banner {
+  background-image: url("../images/banner/BANNER.gif");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 111px;
+}
+
+/*CSS DO BANNER*/
+.text_banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+  #menu-h {
+    background-color:#9751BC;
+  }
+  
+  #menu-h ul {
+    max-width: 80%;
+    padding: 0;
+  }
+  
+  #menu-h ul li {
+    display: inline;
+  }
+  
+  #menu-h ul li a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 28px;
+    color:#4C3434;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .8s;
+  }
+ 
+  #menu-h ul li a:hover {
+    background-color:#E69760;
+  }
+  
+  #menu-h ul li:last-child a {
+    float: right;
+    background-color:#c2976f;
+  }
+
+  body{
+  background-color: #E1CCD0;
+  }
+  
+ h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 28px;
+    color:#070506;
+  }
+  
+
+  .group {
+    display: inline-block;
+    line-height: 30px;
+    align-items: center;
+    position: relative;
+    max-width: 450px;
+  
+   }
+  
+   .input {
+    width: 550px;
+    height: 40px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #E1DDE3;
+    color: #0d0c22;
+    transition: .3s ease;
+    margin-bottom: 10px;
+    margin-left: 70px;
+   }
+  
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+  
+   .input:focus, input:hover {
+    outline: none;
+    border-color:#9E55CD;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px#D1B0BE;
+   }
+  
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    min-height: 360px;
+    max-height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor:pointer;
+    background-color: #9751BC;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .card p{
+    color: white;
+  }
+
+  .card h1{
+    color: white;
+  }
+  
+  .card img {
+    height: auto; 
+    display: block; 
+  }
+
+  .card a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-navigation {
+    overflow-x: scroll;
+    white-space: nowrap;
+    /* Adicione outros estilos para a navegação de cards */
+  }
+
+  h2 {
+    margin: 0;
+    padding: 10px;
+    /* Adicione outros estilos para os títulos das categorias */
+  }
+
+  .price {
+    color:#E69760;
+    font-size: 22px;
+  }
+  
+  .column {
+
+    float: left;
+    width: 22%;
+    padding: 80px 80px;
+    text-align: center;
+  }
+  .column img{
+    border-radius: 5%;
+    width: 100px;
+    padding: 10px;
+    
+  }
+  .text-overlay {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+  }
+  .options_icon{
+    max-width: 48px;
+    
+  }
+  #menu-h ul li img {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 28px;
+    color:#4C3434;
+    margin-top: 15px;
+    max-width: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .8s;
+    
+  }
+  
+  .section{
+    padding-right: 20px;
+  }
+  .card_background{
+    transition: transform 0.3s ease; /* Para criar uma transição suave */
+  }
+  .card_background:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% quando o mouse está em cima */
+  }
+  .card_background img{
+    width: 100%;
+  }
+  
+  .banner_anime {
+    height: 100%;
+    width: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50px;
+  
+  }
+ 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+}
