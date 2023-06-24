@@ -1,2 +1,2 @@
 # Kamado_Animes
-A site created by students of Senai's
+A Site Created by Students of Senai's
