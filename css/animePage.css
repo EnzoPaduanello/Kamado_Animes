@@ -267,3 +267,32 @@ header{
     padding: 10px;
     
   }
+  footer {
+    background: linear-gradient(#9E55CD 0%,#DDA0DD 100%);
+    width: 100%;
+    height: 80px; /*auto*/
+    display: flex;
+    align-items: center;
+    bottom: 0;
+  }
+  footer a{
+    text-decoration: none;
+    color: #000000;
+  }
+  /* logo no footer*/
+  /*footer img{ 
+    margin-top: 5px;
+    margin-left: 730px;
+    float:center;
+    padding:auto;
+    height: 20%;
+    width: 20%;
+    bottom: 0%;
+  }*/
+  footer p{ /* escrita footer*/
+    margin-top: 40px;
+    margin-right: 820PX;
+    float:right;
+    width: auto; 
+    bottom: 0%;
+  }
