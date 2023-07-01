@@ -258,6 +258,7 @@ footer {
   display: flex;
   align-items: center;
   bottom: 0;
+  margin-bottom: 5px;
 }
 footer a{
   text-decoration: none;
@@ -599,4 +600,8 @@ footer p{ /* escrita footer*/
   background: #E64F56;
   color: white;
   cursor: pointer;
+}
+
+.video_player{
+  margin-top: 50px;
 }
