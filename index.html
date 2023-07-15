@@ -8,27 +8,53 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
     <link rel="manifest" href="images/icon/site.webmanifest">
+    <script type="text/javascript" scr="funcoes.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
     <title>Kamado Animes</title> 
 </head>
-<header class="header">
-    <nav id="menu-h">
-        <ul>
-            <li><a href="menu_page/sobre.html"><img src="images/header/logo-removebg-preview.png"></a></li>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#filmes">FILMES</a></li>
-            <li><a href="#series">SERIES</a></li>
-            <li><a href="#verjunto"><img src="images/header/AssistirJunto.png" width="55" height="55" alt=""></a></li>
-            <input placeholder="Search" type="search" class="input"></li>
-            <li class="direita"><a href="menu_page/perfil.html"><img src="images/header/perfil.png" alt=""></a></li>
-            <li class="direita"><a href="#"><img src="images/header/notificacoes.png"alt=""></a></li>
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Animes</a>
+                <div class="dropdown-content">
+                  <a href="Filmes.html">Filmes</a>
+                  <a href="Series.html">Series</a>
+                </div>
+            </li>
+            <li><a href="#assistir-junto">Assistir Junto</a></li>
+            <li><a href="#perfil" id="perfil"><img src="../images/header/perfil.png"></a></li>
         </ul>
     </nav>
 </header>
 <body>
     
-        <div class="banner">
-          
+    <div class="slideshow-container">
+        <!-- imagens -->
+            <div class="mySlides fade">
+                <img src="../images/banner/2.png" style="width:100%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="../images/banner/3.png" style="width:100%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="../images/banner/4.png" style="width:100%">
+            </div>
+        
+            <!-- botões -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- circulos -->
+        <div style="text-align:center">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     
     <section>
