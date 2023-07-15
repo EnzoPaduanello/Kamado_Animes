@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  
+
 
 /*MENU PRINCIPAL*/
 
@@ -82,8 +82,6 @@ ul {
 
   /*FIM DO MENU PRINCIPAL*/
 
-  /*BANNERS*/
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -98,7 +96,7 @@ ul {
   display: none;
 }
 
-/* BOTÕES */
+/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -123,6 +121,26 @@ ul {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */
@@ -150,26 +168,6 @@ ul {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-header{
-  width: 100%;
-  height: auto;
-  position: fixed;
-  padding-bottom: 20px;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-}
-
-.banner {
-  background-image: url("../images/banner/BANNER.gif");
-  height: 75%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 111px;
 }
 
 /*CSS DO BANNER*/
