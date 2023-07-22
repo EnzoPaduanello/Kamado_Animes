@@ -10,6 +10,10 @@
 
 /*MENU PRINCIPAL*/
 
+#menu{
+  position: fixed;
+}
+
 ul {
     list-style-type:none;
     margin: 0;
@@ -222,7 +226,7 @@ ul {
   }
 
   body{
-  background-color: #E1CCD0;
+  background-color: #eccffa;
   }
   
  h1{
@@ -405,7 +409,7 @@ footer {
   background: linear-gradient(#9E55CD 0%,#DDA0DD 100%);
   width: 100%;
   height: 80px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   display: flex;
