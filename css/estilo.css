@@ -10,8 +10,12 @@
 
 /*MENU PRINCIPAL*/
 
-#menu{
+.menu{
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 ul {
@@ -416,6 +420,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 footer a{
   text-decoration: none;
   color: #ffffff;
@@ -992,4 +997,8 @@ footer p{ /* escrita footer*/
   font-size: 0.75rem;
   color: #8B8E98;
   text-decoration: underline;
+ }
+
+ .lancamentos{
+  color: #fff;
  }
