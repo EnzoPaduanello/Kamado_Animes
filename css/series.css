@@ -256,4 +256,72 @@ h3:after {
   transition:all 0.2s
 }
    
-   
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9751BC;
+}
+
+ul li{
+  display: inline-block;
+}
+
+li a, .dropbtn {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #9751BC;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9751BC;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #9751BC;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Icon perfil*/
+
+ul li img{
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0px;
+}
+
+#perfil{
+  padding: 10px 10px 15px 10px;
+  align-items: center;
+  margin-left: 15px;
+}

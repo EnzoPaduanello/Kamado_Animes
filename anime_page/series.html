@@ -9,20 +9,25 @@
 
 </head>
 <body>
-    <header class="header">
-        <nav id="menu-h">
-            <ul>
-                <li><a href="../menu_page/sobre.html"><img src="../images/header/logo-removebg-preview.png"></a></li>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="#filmes">FILMES</a></li>
-                <li><a href="#series">SERIES</a></li>
-                <li><a href="#verjunto"><img src="../images/header/AssistirJunto.png" width="55" height="55" alt=""></a></li>
-                <input placeholder="Search" type="search" class="input"></li>
-                <li class="direita"><a href="cadastro.html"><img src="../images/header/perfil.png" alt=""></a></li>
-                <li class="direita"><a href="#"><img src="../images/header/notificacoes.png"alt=""></a></li>
+    
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../menu_page/sobre.html">Sobre</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Animes</a>
+                    <div class="dropdown-content">
+                      <a href="Filmes.html">Filmes</a>
+                      <a href="series.html">Series</a>
+                    </div>
+                </li>
+                <li><a href="#assistir-junto">Assistir Junto</a></li>
+                <li><a href="#perfil" id="perfil"><img src="../images/header/perfil.png"></a></li>
             </ul>
         </nav>
     </header>
+
      <div class="content">
         <!-- <h1>FILMES</h1>
         <div id="posters">
