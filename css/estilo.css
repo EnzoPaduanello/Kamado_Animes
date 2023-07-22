@@ -72,8 +72,8 @@ ul {
   /*Icon perfil*/
 
   ul li img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 0;
     padding: 0px;
   }
@@ -226,7 +226,7 @@ ul {
   }
 
   body{
-  background-color: #eccffa;
+  background-color: #482056;
   }
   
  h1{
