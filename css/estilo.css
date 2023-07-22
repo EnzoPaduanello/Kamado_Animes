@@ -755,3 +755,233 @@ footer p{ /* escrita footer*/
 .video_player{
   margin-top: 50px;
 }
+
+.form_container {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 40px 20px 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+  0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+  0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+  0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+  0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  font-family: "Inter", sans-serif;
+  position: relative;
+ }
+  
+ .logo_container {
+  margin-bottom:50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100px;
+  height: 80px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(248, 248, 248, 0)), to(#F8F8F888));
+  background: linear-gradient(180deg, rgba(248, 248, 248, 0) 50%, #F8F8F888 100%);
+  border: 1px solid #F7F7F8;
+  -webkit-filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  border-radius: 11px;
+ }
+ .logo_container img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+ }
+  
+ .title_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
+ }
+  
+ .title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #9E55CD;
+ }
+  
+ .subtitle {
+  font-size: 0.725rem;
+  max-width: 80%;
+  text-align: center;
+  line-height: 1.1rem;
+  color: #DDA0DD;
+ }
+  
+ .input_container {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 5px;
+ }
+  
+ .input_label {
+  font-size: 0.75rem;
+  color: #000000;
+  font-weight: 600;
+ }
+  
+ .icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+ }
+  
+ .input_field {
+  width: auto;
+  height: 40px;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  -webkit-filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  -webkit-transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+ }
+  
+ .input_field:focus {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px #242424;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+ }
+  
+ .sign-in_btn {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: #DDA0DD;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+ }
+  
+ .sign-in_ggl {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 7px;
+  outline: none;
+  color: #9E55CD;
+  border: 1px solid #e5e5e5;
+  -webkit-filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  cursor: pointer;
+ }
+  
+ .sign-in_apl {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap:200px;
+  background:#9E55CD;
+  border-radius: 7px;
+  outline: none;
+  color: #ffffff;
+  border: 1px solid #e5e5e5;
+  -webkit-filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  filter: drop-shadow(0px 1px 0px #efefef)
+  drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  cursor: pointer;
+ }
+  
+ .separator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+  color: #8B8E98;
+ }
+  
+ .separator .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+ }
+  
+ .note {
+  font-size: 0.75rem;
+  color: #8B8E98;
+  text-decoration: underline;
+ }
