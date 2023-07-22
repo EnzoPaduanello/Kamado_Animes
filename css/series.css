@@ -117,33 +117,7 @@ header{
    }
 
    
-   /*.content .h1{
-    color: #9E55CD;
-    border: solid;
-   }
-   
-     #posters{ 
-        display: inline-block;
-        padding-top: 200px;
-        padding-right: 2.5px;
-        padding-left: 40px;
-        border: 90px;
-        border-color:#9751BC;
 
-       }
-
-       #demon{
-        width: 187px;
-        height: 281px;
-        background:#9751BC;
-        
-       }
-       
-       #posters .a{
-        display: inline-block;
-       }*/
-
-       /*cardapio*/
 .section-cardapio          { background-color:#e3e3e3; margin-top: 100px;}
 .section-cardapio .content { float:left; padding: 0.5em 0 0em 0; }
 
@@ -164,8 +138,12 @@ header{
 .fundo-card             {  position: relative; opacity: 1.2; transition:0.8s;  }
 .card:hover .fundo-card { opacity: 0.2; height:200px; }
 
-#centralizar{
-  align-items: center;
+#centrer{
+  background-color: #9751BC;
+}
+
+#center h1{
+  color: #fff;
 }
 
 .card a{ 
