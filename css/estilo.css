@@ -674,10 +674,11 @@ footer p{ /* escrita footer*/
   position: relative;
     width: 100%;
   }
+
 .card_sobre {
   position: -webkit-sticky;
   margin-bottom:50px;
-  margin-top:110px;
+  margin-top: 90px;
   width: 400px;
   height: 700px;
   gap: 10px;
