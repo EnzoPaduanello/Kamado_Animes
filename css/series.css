@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Sigmar&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+header{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.banner {
+  background-image: url("../images/banner/BANNER.gif");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 111px;
+}
+
+/*CSS DO BANNER*/
+.text_banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+  #menu-h {
+    background-color:#9751BC;
+  }
+  
+  #menu-h ul {
+    max-width: 80%;
+    padding: 0;
+  }
+  
+  #menu-h ul li {
+    display: inline;
+  }
+  
+  #menu-h ul li a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 28px;
+    color:#4C3434;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .8s;
+  }
+ 
+  #menu-h ul li a:hover {
+    background-color:#E69760;
+  }
+  
+  #menu-h ul li:last-child a {
+    float: right;
+    background-color:#c2976f;
+  }
+
+  body{
+  background-color: #E1CCD0;
+  }
+  
+ h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 28px;
+    color:#070506;
+  }
+  
+
+  .group {
+    display: inline-block;
+    line-height: 30px;
+    align-items: center;
+    position: relative;
+    max-width: 450px;
+  
+   }
+  
+   .input {
+    width: 550px;
+    height: 40px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #E1DDE3;
+    color: #0d0c22;
+    transition: .3s ease;
+    margin-bottom: 10px;
+    margin-left: 70px;
+   }
+  
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+  
+   .input:focus, input:hover {
+    outline: none;
+    border-color:#9E55CD;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px#D1B0BE;
+   }
+
+   
+   /*.content .h1{
+    color: #9E55CD;
+    border: solid;
+   }
+   
+     #posters{ 
+        display: inline-block;
+        padding-top: 200px;
+        padding-right: 2.5px;
+        padding-left: 40px;
+        border: 90px;
+        border-color:#9751BC;
+
+       }
+
+       #demon{
+        width: 187px;
+        height: 281px;
+        background:#9751BC;
+        
+       }
+       
+       #posters .a{
+        display: inline-block;
+       }*/
+
+       /*cardapio*/
+.section-cardapio          { background-color:#e3e3e3; margin-top: 100px;}
+.section-cardapio .content { float:left; padding: 0.5em 0 0em 0; }
+
+.card { width:300px; height: 450px; margin: 40px; position: relative; background-color: #000000;
+  font-family: 'open_sansregular';
+  color: #fff;
+  float: left;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: all 0.4s;
+  bottom: 0;
+  
+}
+
+.fundo-card img         { width:300px; height:450px; }  
+.fundo-card             {  position: relative; opacity: 1.2; transition:0.8s;  }
+.card:hover .fundo-card { opacity: 0.2; height:200px; }
+
+
+.card a{ 
+  color:#fff;
+  text-decoration:none;
+  transition:all 0.2s;
+}
+.card .color-overlay {
+  background: rgba(64, 84, 94,0.5);
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+.card .gradient-overlay {  
+  background-image: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.6) 21%);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 15;
+}
+.card:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.card:hover .info {
+  opacity: 0.5;
+  bottom: 0px;
+}
+.card:hover .color-overlay {
+  background: rgba(64, 64, 70,0.8);
+}
+.card:hover .title-content{
+  margin-top:100px
+}
+.title-content {
+  text-align: center;
+  margin: 170px 0 0 0;
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  bottom: 20px;
+  left: 0;
+  transition:all 0.6s
+}
+.title-content{
+    background-color: #290231a6;
+}
+.card:hover h3:after{
+ 
+  animation: changeLetter 0.3s 1 linear;
+  width: 100%;
+  height: 10px;
+}
+.card h3,h1 {
+  font-size: 2.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Share Tech', sans-serif;
+  margin-bottom: 0;
+  display:inline-block;
+}
+.card h3 {
+    font-size: 1.9em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Share Tech', sans-serif;
+    margin-bottom: 0;
+    display:inline-block;
+  }
+.card h3 a{  
+    font-family: 'Share Tech', sans-serif;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+  transition:all 0.2s
+}
+.card h3 a:hover{
+  text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+  content: " ";
+  display: block; 
+  width: 100%;
+  height: 1px;
+  margin: 10px auto;
+  border: 0;
+  background: #c656f2;
+  transition:all 0.2s
+}
+   
+   
