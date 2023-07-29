@@ -26,52 +26,53 @@ ul {
     background-color: #9751BC;
   }
   
-  ul li{
-    display: inline-block;
-  }
+ul li{
+  display: inline-block;
+}
 
-  li a, .dropbtn {
-    font-family: 'Oswald', sans-serif;
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: #9751BC;
-  }
-  
-  li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #9751BC;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 30;
-  }
-  
-  .dropdown-content a {
-    font-family: 'Oswald', sans-serif;
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #9751BC;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+li a, .dropbtn {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #9751BC;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9751BC;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #9751BC;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
   /*Icon perfil*/
 
