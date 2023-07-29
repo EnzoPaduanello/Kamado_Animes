@@ -211,7 +211,7 @@ header{
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 400px;
-    min-height: 360px;
+    min-height: 400px;
     max-height: 400px;
     margin: 10px;
     margin-top: 90px;
