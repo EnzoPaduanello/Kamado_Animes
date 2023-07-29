@@ -1010,3 +1010,7 @@ footer p{ /* escrita footer*/
   flex: 1;
   /* Opcional: adicione estilos adicionais para o conteúdo principal */
 }
+
+.a{
+  color: white;
+ }
