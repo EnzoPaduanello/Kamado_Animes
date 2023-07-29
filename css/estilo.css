@@ -999,3 +999,14 @@ footer p{ /* escrita footer*/
  .lancamentos{
   color: #fff;
  }
+
+ .contai {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.conten {
+  flex: 1;
+  /* Opcional: adicione estilos adicionais para o conteúdo principal */
+}
