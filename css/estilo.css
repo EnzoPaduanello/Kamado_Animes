@@ -10,6 +10,16 @@
 
 /*MENU PRINCIPAL*/
 
+header{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
 .menu{
   position: fixed;
   top: 0;
